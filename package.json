@@ -1,0 +1,29 @@
+{
+  "name": "framework-wheel-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm -C play dev",
+    "docs:dev": "pnpm -C docs dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.28.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "typescript": "^4.9.3",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@frameworl-wheel-ui/components": "workspace:^1.0.0",
+    "@frameworl-wheel-ui/theme-chalk": "workspace:^1.0.0",
+    "@frameworl-wheel-ui/utils": "workspace:^1.0.0",
+    "@vicons/ionicons5": "^0.12.0"
+  }
+}
